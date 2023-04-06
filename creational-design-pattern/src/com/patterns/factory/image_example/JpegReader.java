@@ -1,10 +1,10 @@
-package com.patterns.factory.ImageExample;
+package com.patterns.factory.image_example;
 
-public class GifReader implements ImageReader {
+public class JpegReader implements ImageReader {
 
     private DecodedImage decodedImage;
 
-    public GifReader(String image) {
+    public JpegReader(String image) {
         this.decodedImage = new DecodedImage(image);
     }
 

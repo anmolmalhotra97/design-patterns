@@ -1,4 +1,4 @@
-package com.patterns.factory.ImageExample;
+package com.patterns.factory.image_example;
 
 public class DecodedImage {
     private String image;
